@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Selenium",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Browser automation for web UI tests, well-established."
+  },
+  {
+    "name": "Postman",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "API testing and monitoring, widely used and easy to adopt."
+  },
+  {
+    "name": "Bruno",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Open-source API client with local Git-based workflow, CLI runner, and JS scripting."
+  },
+  {
+    "name": "Insomnia",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Open-source API client, usable offline, Inso CLI for automation, JS test scripts."
+  },
+  {
+    "name": "REST-assured",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Java DSL for API testing (JUnit/TestNG), fully local, ideal for backend tests."
+  },
+  {
+    "name": "JUnit",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Classic unit testing framework for Java."
+  },
+  {
+    "name": "Shift-Left Testing",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Early testing in the development process to reduce costs and time-to-market."
+  },
+  {
+    "name": "Testcontainers",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Java/Node library that spins up databases, message brokers, etc., via Docker for integration tests."
+  },
+  {
+    "name": "LocalStack",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Local emulation of AWS services using Docker containers for API and infrastructure testing."
+  },
+  {
+    "name": "MockServer",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "HTTP/HTTPS mocking and proxying deployed via Docker containers, ideal for independent API tests."
+  },
+  {
+    "name": "Playwright",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Next-gen browser automation with built-in multi-browser support."
+  },
+  {
+    "name": "Cucumber",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Tool for Behavior-Driven Development using Gherkin syntax, supports automated test runs."
+  },
+  {
+    "name": "Behavior-Driven Development",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Testing technique translating requirements into readable Gherkin feature files and promoting collaboration between business and tech teams."
+  },
+  {
+    "name": "JMeter",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Performance and load testing for web services."
+  },
+  {
+    "name": "k6",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "JavaScript-based performance and load testing runner with a Go core, low footprint, and excellent CLI."
+  },
+  {
+    "name": "Contract Testing (Pact)",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Contract tests between microservices to reduce integration breakages."
+  },
+  {
+    "name": "Cypress",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "End-to-end testing framework tightly integrated with JavaScript stacks."
+  },
+  {
+    "name": "Gatling",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Code-based performance testing with a Scala DSL."
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Orchestration of containerized test and staging environments."
+  },
+  {
+    "name": "Testim",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI-powered test automation for web UI tests with self-healing capabilities."
+  },
+  {
+    "name": "Mabl",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Automated testing with built-in AI and visual regression detection."
+  },
+  {
+    "name": "Visual Regression Testing (Percy)",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Screenshot comparison to detect visual changes in UI tests."
+  }
+]
