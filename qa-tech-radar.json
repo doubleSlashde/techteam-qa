@@ -56,6 +56,22 @@
     "description": "Standard mocking library for Java."
   },
   {
+    "name": "Jest",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "status": "New",
+    "description": "JavaScript/TypeScript testing framework with built-in mocking, assertions, and snapshot testing."
+  },
+  {
+    "name": "ArchUnit",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "status": "New",
+    "description": "Java architecture testing library to verify architectural rules and constraints."
+  },
+  {
     "name": "Shift-Left Testing",
     "ring": "adopt",
     "quadrant": "techniques",
@@ -76,6 +92,7 @@
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "TRUE",
+    "status": "No Change",
     "description": "Local emulation of AWS services using Docker containers for API and infrastructure testing."
   },
   {
@@ -108,7 +125,7 @@
     "quadrant": "techniques",
     "isNew": "FALSE",
     "status": "No Change",
-    "description": "Testing technique translating requirements into readable Gherkin feature files and promoting collaboration between business and tech teams."
+    "description": "Technique translating requirements into readable Gherkin feature files and promoting collaboration between business and tech teams."
   },
   {
     "name": "JMeter",
@@ -159,27 +176,91 @@
     "description": "Orchestration of containerized test and staging environments."
   },
   {
-    "name": "Testim",
-    "ring": "assess",
-    "quadrant": "tools",
+    "name": "Terraform",
+    "ring": "adopt",
+    "quadrant": "platforms",
     "isNew": "TRUE",
-    "status": "Moved In",
-    "description": "AI-powered test automation for web UI tests with self-healing capabilities."
+    "status": "New",
+    "description": "Infrastructure-as-Code for provisioning consistent test environments in public/private clouds."
   },
   {
-    "name": "Mabl",
-    "ring": "assess",
-    "quadrant": "tools",
+    "name": "Ansible",
+    "ring": "adopt",
+    "quadrant": "platforms",
     "isNew": "TRUE",
-    "status": "Moved In",
-    "description": "Automated testing with built-in AI and visual regression detection."
+    "status": "New",
+    "description": "Configuration management and provisioning for test VMs or containers using declarative playbooks."
+  },
+  {
+    "name": "BrowserStack",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "status": "New",
+    "description": "Cloud-based platform for cross-browser and cross-device testing of web and mobile UIs."
+  },
+  {
+    "name": "Helm",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "status": "New",
+    "description": "Package manager for Kubernetes to manage deployment templates and versioned charts."
   },
   {
     "name": "Visual Regression Testing (Percy)",
     "ring": "assess",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "status": "Moved In",
+    "status": "New",
     "description": "Screenshot comparison to detect visual changes in UI tests."
+  },
+  {
+    "name": "WireMock",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "status": "No change",
+    "description": "HTTP stub/mock server for API tests, simulating complex response scenarios and fault conditions."
+  },
+  {
+    "name": "Chaos Engineering",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "status": "New",
+    "description": "Technique to inject failures (e.g., network latency, service restarts) into systems to validate resilience."
+  },
+  {
+    "name": "Test-Driven Development",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "status": "No change",
+    "description": "Write tests before implementation to drive design, ensure coverage, and catch defects early."
+  },
+  {
+    "name": "Clean Code",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "status": "No change",
+    "description": "Guidelines and practices for writing maintainable, readable, and efficient code."
+  },
+  {
+    "name": "Code Reviews",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "status": "No change",
+    "description": "Peer review process to analyze code changes, catch defects, and improve code quality."
+  },
+  {
+    "name": "AI-based Code Reviews",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "status": "New",
+    "description": "Automated code review using AI/ML to detect issues, suggest improvements, and enforce standards."
   }
 ]
