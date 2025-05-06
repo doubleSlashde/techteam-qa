@@ -59,8 +59,8 @@
     "name": "Jest",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "status": "New",
+    "isNew": "FALSE",
+    "status": "No Change",
     "description": "JavaScript/TypeScript testing framework with built-in mocking, assertions, and snapshot testing."
   },
   {
@@ -154,7 +154,7 @@
   {
     "name": "Cypress",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "status": "No Change",
     "description": "End-to-end testing framework tightly integrated with JavaScript stacks."
@@ -179,16 +179,16 @@
     "name": "Terraform",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "status": "New",
+    "isNew": "FALSE",
+    "status": "No Change",
     "description": "Infrastructure-as-Code for provisioning consistent test environments in public/private clouds."
   },
   {
     "name": "Ansible",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "status": "New",
+    "isNew": "FALSE",
+    "status": "No Change",
     "description": "Configuration management and provisioning for test VMs or containers using declarative playbooks."
   },
   {
@@ -203,9 +203,17 @@
     "name": "Helm",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "status": "New",
+    "isNew": "FALSE",
+    "status": "No Change",
     "description": "Package manager for Kubernetes to manage deployment templates and versioned charts."
+  },
+  {
+    "name": "Jira XRay",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "status": "No change",
+    "description": "Test management add-on for Jira to manage test cases, plans, and execution reports."
   },
   {
     "name": "Visual Regression Testing (Percy)",
@@ -220,7 +228,7 @@
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "status": "No change",
+    "status": "No Change",
     "description": "HTTP stub/mock server for API tests, simulating complex response scenarios and fault conditions."
   },
   {
@@ -236,7 +244,7 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "status": "No change",
+    "status": "No Change",
     "description": "Write tests before implementation to drive design, ensure coverage, and catch defects early."
   },
   {
@@ -244,7 +252,7 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "status": "No change",
+    "status": "No Change",
     "description": "Guidelines and practices for writing maintainable, readable, and efficient code."
   },
   {
@@ -252,7 +260,7 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "status": "No change",
+    "status": "No Change",
     "description": "Peer review process to analyze code changes, catch defects, and improve code quality."
   },
   {
@@ -262,5 +270,21 @@
     "isNew": "TRUE",
     "status": "New",
     "description": "Automated code review using AI/ML to detect issues, suggest improvements, and enforce standards."
+  },
+  {
+    "name": "DataFaker",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "status": "No change",
+    "description": "Java library for generating realistic fake data (names, addresses, numbers) for testing."
+  },
+  {
+    "name": "Instancio",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "status": "New",
+    "description": "Java object generator that automatically populates POJOs with random data for tests."
   }
 ]
