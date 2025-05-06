@@ -137,7 +137,7 @@
   },
   {
     "name": "k6",
-    "ring": "trial",
+    "ring": "assess",
     "quadrant": "tools",
     "isNew": "TRUE",
     "status": "Moved In",
