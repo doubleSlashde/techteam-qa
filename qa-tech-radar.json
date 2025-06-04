@@ -294,5 +294,13 @@
     "isNew": "FALSE",
     "status": "No change",
     "description": "CLI for automated testing of RESTful APIs, with a simple, concise and flexible YAML-based syntax."
+  },
+  {
+    "name": "DBeaver",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "status": "No change",
+    "description": "Powerful database tool, useful for exploring the database during test cases or creating testdata."
   }
 ]
